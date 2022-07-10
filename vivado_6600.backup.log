@@ -1,0 +1,158 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jul  7 22:29:41 2022
+# Process ID: 6600
+# Current directory: C:/Users/finger/Desktop/mycpu3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16484 C:\Users\finger\Desktop\mycpu3\mycpu3.xpr
+# Log file: C:/Users/finger/Desktop/mycpu3/vivado.log
+# Journal file: C:/Users/finger/Desktop/mycpu3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/finger/Desktop/mycpu3/mycpu3.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 719.102 ; gain = 116.449
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 13:18:27 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 13:18:27 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 13:26:44 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 13:26:44 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Netlist 29-17] Analyzing 39 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Common 17-344] 'open_run' was cancelled
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Xilinx/Port_#0002.Hub_#0001
+set_property PROGRAM.FILE {C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1824.555 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 13:38:44 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 13:38:44 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 1829.086 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Fri Jul  8 13:45:54 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1830.609 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 13:48:16 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 13:48:16 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 13:55:35 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 13:55:35 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 14:02:19 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 14:02:19 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 14:03:39 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 14:03:39 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 14:12:45 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 14:12:45 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 14:14:42 2022] Launched synth_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/synth_1/runme.log
+[Fri Jul  8 14:14:42 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1833.648 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Jul  8 14:23:34 2022] Launched impl_1...
+Run output will be captured here: C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/runme.log
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/finger/Desktop/mycpu3/mycpu3.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.

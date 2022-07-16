@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Jul  6 14:34:57 2022
+# Process ID: 4692
+# Current directory: C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/dram
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7640 C:\Users\finger\Desktop\cpu-master\stupkt\download_test\synthesized_ip\dram\dram.dcp
+# Log file: C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/dram/vivado.log
+# Journal file: C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/dram\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/dram/dram.dcp
+Command: open_checkpoint C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/dram/dram.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 608.512 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.3/data/ip'.
+INFO: [Netlist 29-17] Analyzing 2432 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'dram' is not ideal for floorplanning, since the cellview 'dram_spram' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 959.109 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2048 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 2048 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.3 (64-bit) build 2405991
+open_checkpoint: Time (s): cpu = 00:00:36 ; elapsed = 00:00:18 . Memory (MB): peak = 1111.180 ; gain = 505.922
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul  6 14:35:59 2022...

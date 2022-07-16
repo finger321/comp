@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jun 30 15:54:23 2022
+# Process ID: 8972
+# Current directory: C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/prgrom
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2584 C:\Users\finger\Desktop\cpu-master\stupkt\download_test\synthesized_ip\prgrom\prgrom.dcp
+# Log file: C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/prgrom/vivado.log
+# Journal file: C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/prgrom\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_checkpoint C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/prgrom/prgrom.dcp
+Command: open_checkpoint C:/Users/finger/Desktop/cpu-master/stupkt/download_test/synthesized_ip/prgrom/prgrom.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.052 . Memory (MB): peak = 634.102 ; gain = 0.000
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.3/data/ip'.
+INFO: [Netlist 29-17] Analyzing 583 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'prgrom' is not ideal for floorplanning, since the cellview 'prgrom_rom' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a100tfgg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 932.891 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2018.3 (64-bit) build 2405991
+open_checkpoint: Time (s): cpu = 00:00:35 ; elapsed = 00:00:18 . Memory (MB): peak = 1074.723 ; gain = 454.613
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 30 16:21:33 2022...
